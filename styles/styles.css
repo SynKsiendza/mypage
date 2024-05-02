@@ -38,6 +38,7 @@ body{
 }
 .sidebar-right
 {
+    margin-top: 150px;
     font-size: 15px;
     float: right;
     padding: 20px;
@@ -137,11 +138,13 @@ body{
 {
     color: #FFFFFF;
     background-color: #5e5e6e;
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
     text-decoration: none;
     transition: 0.4s;
     border: 3px solid #5e5e6e;
+    margin-bottom: 15px;
+    float:left;
 }
 .scroll-link:hover
 {
@@ -154,4 +157,59 @@ body{
 .scroll-link::after
 {
     content: " ↗️";
+}
+.no-deco
+{
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+.project-tile
+{
+    background-color: #22222c;
+    width: 96%;
+    min-height: 115px;
+    padding: 1%;
+    border-radius: 30px;
+    transition: 0.5s;
+    margin-bottom: 15px;
+    float: left;
+}
+.project-img
+{
+    float: left;
+    border-radius: 25px;
+    margin-right: 15px;
+}
+.project-name
+{
+    color: #4e4ee7;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-left: 400px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #3d3d3d;
+}
+.project-desc
+{
+    color: #cecece;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 425px;
+}
+.project-tile:hover
+{
+    transition: 0.5s;
+    background-color: #323241;
+    -webkit-box-shadow: inset 10px 10px 25px -20px rgba(184, 184, 191, 1);
+-moz-box-shadow: inset 10px 10px 25px -20px rgba(184, 184, 191, 1);
+box-shadow: inset 10px 10px 25px -20px rgba(184, 184, 191, 1);
+}
+#gototop
+{
+    text-decoration: none;
+    color: #0099ff;
+    font-weight: bold;
 }
